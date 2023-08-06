@@ -1,0 +1,23 @@
+body{
+    background-image: url(fondo-papel-tapiz-colorido-borroso-vivo.jpg);
+    background-size:auto;
+}
+.container{
+    width: 50%;
+    height: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+/*
+.login{
+    width: 43%;
+    max-height: fit-content;
+    background-color: blue;
+}
+.image{
+    width: 57%;
+    height: fit-content;
+    background-color: aquamarine;
+}*/
