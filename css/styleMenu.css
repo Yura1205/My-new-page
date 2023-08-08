@@ -51,7 +51,7 @@ body {
 	text-align: center;
 }
 
-.contenidoPrincipal-cursos-link {
+.contenidoPrincipal-depto-link {
 	height: 100px;
 	background-color: #FFF;
 	text-align: center;
@@ -61,7 +61,7 @@ body {
 	position: relative;
 }
 
-.contenidoPrincipal-cursos-link a {
+.contenidoPrincipal-depto-link a {
 	text-decoration: none;
 	color: #000;
 	font-weight: bold;
@@ -73,26 +73,17 @@ body {
 	left: 0;
 }
 
-.contenidoPrincipal-cursos-link:hover {
+.contenidoPrincipal-depto-link:hover {
 	box-shadow: 4px 4px 4px #CCC;
 }
 
-.contenidoPrincipal-cursos-link a:before {
+.contenidoPrincipal-depto-link a:before {
 	content: '';
 	display: block;
 	width: 50px;
 	height: 50px;
 	margin: 10px auto;
 }
-
-.contenidoPrincipal-cursos-link:nth-child(even) a:before {
-	background: url(../img/background1.svg) no-repeat;	
-}
-
-.contenidoPrincipal-cursos-link:nth-child(odd) a:before {
-	background: url(../img/background2.svg) no-repeat;
-}
-
 
 .rodapePrincipal {
 	background-color: #8AC6DE;
@@ -138,7 +129,7 @@ body {
 	padding: 20px 0;
 }
 .pat{
-	object-fit	: fit-content;
+	width: 60%;
 }
 
 .rodapePrincipal-contatoForm {
@@ -254,34 +245,34 @@ body {
 		text-align: left;
 	}
 
-	.contenidoPrincipal-cursos-link:nth-child(3n) {
+	.contenidoPrincipal-depto-link:nth-child(3n) {
 		margin-right: 0;
 	}
 
-	.contenidoPrincipal-cursos-link:nth-child(3n+1) {
+	.contenidoPrincipal-depto-link:nth-child(3n+1) {
 		margin-left: 0;
 	}
 
 }
 
 @media(min-width: 1000px) {
-	.contenidoPrincipal-cursos-link {
+	.contenidoPrincipal-depto-link {
 		margin: 1.333%;
 	}
 
-	.contenidoPrincipal-cursos-link:nth-child(3n) {
+	.contenidoPrincipal-depto-link:nth-child(3n) {
 		margin-right: 1.33%;
 	}
 
-	.contenidoPrincipal-cursos-link:nth-child(3n+1) {
+	.contenidoPrincipal-depto-link:nth-child(3n+1) {
 		margin-left: 1.333%;
 	}
 
-	.contenidoPrincipal-cursos-link:nth-child(4n) {
+	.contenidoPrincipal-depto-link:nth-child(4n) {
 		margin-right: 0;
 	}
 
-	.contenidoPrincipal-cursos-link:nth-child(4n+1) {
+	.contenidoPrincipal-depto-link:nth-child(4n+1) {
 		margin-left: 0;
 	}
 
